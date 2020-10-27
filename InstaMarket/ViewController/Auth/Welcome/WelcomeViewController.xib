@@ -1,0 +1,147 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="17156" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina4_7" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="17125"/>
+        <capability name="Named colors" minToolsVersion="9.0"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="WelcomeViewController" customModule="InstaMarket" customModuleProvider="target">
+            <connections>
+                <outlet property="view" destination="i5M-Pr-FkT" id="sfx-zR-JGt"/>
+            </connections>
+        </placeholder>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view clearsContextBeforeDrawing="NO" contentMode="scaleToFill" id="i5M-Pr-FkT">
+            <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="nHg-OP-SuN">
+                    <rect key="frame" x="0.0" y="0.0" width="375" height="60"/>
+                    <subviews>
+                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Instamarket" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" minimumScaleFactor="0.5" translatesAutoresizingMaskIntoConstraints="NO" id="Fi5-Na-B27">
+                            <rect key="frame" x="132.5" y="0.0" width="222.5" height="60"/>
+                            <fontDescription key="fontDescription" type="boldSystem" pointSize="40"/>
+                            <color key="textColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                            <nil key="highlightedColor"/>
+                        </label>
+                    </subviews>
+                    <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                    <constraints>
+                        <constraint firstItem="Fi5-Na-B27" firstAttribute="top" secondItem="nHg-OP-SuN" secondAttribute="top" id="6D1-w4-2KJ"/>
+                        <constraint firstAttribute="bottom" secondItem="Fi5-Na-B27" secondAttribute="bottom" id="arf-mw-6pE"/>
+                        <constraint firstAttribute="height" constant="60" id="ldu-OB-sLX"/>
+                        <constraint firstAttribute="trailing" secondItem="Fi5-Na-B27" secondAttribute="trailing" constant="20" id="tAd-tf-qMz"/>
+                    </constraints>
+                </view>
+                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="8Go-0J-2ym">
+                    <rect key="frame" x="0.0" y="80" width="375" height="362"/>
+                    <subviews>
+                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Welcome!" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="m1y-I5-saI">
+                            <rect key="frame" x="125.5" y="30" width="124.5" height="33.5"/>
+                            <fontDescription key="fontDescription" type="system" weight="medium" pointSize="28"/>
+                            <color key="textColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                            <nil key="highlightedColor"/>
+                        </label>
+                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Phasellus risus turpis, pretium sit amet magna non, molestie ultricies enim." textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="k8z-Ci-tsw">
+                            <rect key="frame" x="20" y="83.5" width="335" height="38.5"/>
+                            <fontDescription key="fontDescription" type="system" pointSize="16"/>
+                            <color key="textColor" red="0.30588235294117649" green="0.30588235294117649" blue="0.30588235294117649" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                            <nil key="highlightedColor"/>
+                        </label>
+                        <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="tZp-1W-tsM" customClass="CustomButton" customModule="InstaMarket" customModuleProvider="target">
+                            <rect key="frame" x="87.5" y="162" width="200" height="40"/>
+                            <color key="backgroundColor" red="0.83137254901960778" green="0.79607843137254897" blue="0.85490196078431369" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                            <constraints>
+                                <constraint firstAttribute="height" constant="40" id="eoj-Ev-eic"/>
+                                <constraint firstAttribute="width" constant="200" id="nIC-5h-m8i"/>
+                            </constraints>
+                            <fontDescription key="fontDescription" type="system" weight="medium" pointSize="18"/>
+                            <state key="normal" title="Sign In">
+                                <color key="titleColor" red="0.23137254901960785" green="0.23137254901960785" blue="0.23137254901960785" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                            </state>
+                            <userDefinedRuntimeAttributes>
+                                <userDefinedRuntimeAttribute type="number" keyPath="cornerRadius">
+                                    <real key="value" value="20"/>
+                                </userDefinedRuntimeAttribute>
+                            </userDefinedRuntimeAttributes>
+                            <connections>
+                                <action selector="signInListener:" destination="-1" eventType="touchUpInside" id="MSG-ke-VP6"/>
+                            </connections>
+                        </button>
+                        <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="CFg-6f-xz2" customClass="CustomButton" customModule="InstaMarket" customModuleProvider="target">
+                            <rect key="frame" x="87.5" y="222" width="200" height="40"/>
+                            <color key="backgroundColor" red="0.23137254901960785" green="0.23137254901960785" blue="0.23137254901960785" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                            <constraints>
+                                <constraint firstAttribute="width" constant="200" id="L1T-4L-XWa"/>
+                                <constraint firstAttribute="height" constant="40" id="kB2-6F-cQe"/>
+                            </constraints>
+                            <fontDescription key="fontDescription" type="system" weight="medium" pointSize="18"/>
+                            <state key="normal" title="Register">
+                                <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                            </state>
+                            <userDefinedRuntimeAttributes>
+                                <userDefinedRuntimeAttribute type="number" keyPath="cornerRadius">
+                                    <real key="value" value="20"/>
+                                </userDefinedRuntimeAttribute>
+                            </userDefinedRuntimeAttributes>
+                            <connections>
+                                <action selector="registerListener:" destination="-1" eventType="touchUpInside" id="ki7-Vo-Tgb"/>
+                            </connections>
+                        </button>
+                        <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="axl-eG-cjj">
+                            <rect key="frame" x="118.5" y="292" width="138" height="30"/>
+                            <state key="normal" title="Continue as a Guest">
+                                <color key="titleColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                            </state>
+                            <connections>
+                                <action selector="guestListener:" destination="-1" eventType="touchUpInside" id="NiQ-TJ-QEa"/>
+                            </connections>
+                        </button>
+                    </subviews>
+                    <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                    <constraints>
+                        <constraint firstItem="CFg-6f-xz2" firstAttribute="centerX" secondItem="8Go-0J-2ym" secondAttribute="centerX" id="0dk-k6-fCz"/>
+                        <constraint firstItem="k8z-Ci-tsw" firstAttribute="leading" secondItem="8Go-0J-2ym" secondAttribute="leading" constant="20" id="2TS-h5-4b1"/>
+                        <constraint firstItem="m1y-I5-saI" firstAttribute="centerX" secondItem="8Go-0J-2ym" secondAttribute="centerX" id="4KZ-qy-D15"/>
+                        <constraint firstAttribute="bottom" secondItem="axl-eG-cjj" secondAttribute="bottom" constant="40" id="6Hv-Iw-e96"/>
+                        <constraint firstItem="axl-eG-cjj" firstAttribute="top" secondItem="CFg-6f-xz2" secondAttribute="bottom" constant="30" id="7Ta-5o-P19"/>
+                        <constraint firstItem="tZp-1W-tsM" firstAttribute="centerX" secondItem="8Go-0J-2ym" secondAttribute="centerX" id="Suy-2Y-4P4"/>
+                        <constraint firstItem="axl-eG-cjj" firstAttribute="centerX" secondItem="8Go-0J-2ym" secondAttribute="centerX" id="Ul6-eK-G9L"/>
+                        <constraint firstItem="CFg-6f-xz2" firstAttribute="top" secondItem="tZp-1W-tsM" secondAttribute="bottom" constant="20" id="WwK-aP-Nj0"/>
+                        <constraint firstItem="tZp-1W-tsM" firstAttribute="top" secondItem="k8z-Ci-tsw" secondAttribute="bottom" constant="40" id="eb6-3o-OeQ"/>
+                        <constraint firstItem="k8z-Ci-tsw" firstAttribute="top" secondItem="m1y-I5-saI" secondAttribute="bottom" constant="20" id="fZU-fg-bZP"/>
+                        <constraint firstAttribute="trailing" secondItem="k8z-Ci-tsw" secondAttribute="trailing" constant="20" id="foJ-cH-vzK"/>
+                        <constraint firstItem="m1y-I5-saI" firstAttribute="top" secondItem="8Go-0J-2ym" secondAttribute="top" constant="30" id="iPF-gk-109"/>
+                    </constraints>
+                </view>
+            </subviews>
+            <viewLayoutGuide key="safeArea" id="fnl-2z-Ty3"/>
+            <color key="backgroundColor" name="cream"/>
+            <constraints>
+                <constraint firstItem="nHg-OP-SuN" firstAttribute="leading" secondItem="fnl-2z-Ty3" secondAttribute="leading" id="0dL-sj-Qmd"/>
+                <constraint firstItem="8Go-0J-2ym" firstAttribute="leading" secondItem="fnl-2z-Ty3" secondAttribute="leading" id="Ojn-ST-PAD"/>
+                <constraint firstItem="nHg-OP-SuN" firstAttribute="trailing" secondItem="fnl-2z-Ty3" secondAttribute="trailing" id="RBx-TF-0Ks"/>
+                <constraint firstItem="fnl-2z-Ty3" firstAttribute="trailing" secondItem="8Go-0J-2ym" secondAttribute="trailing" id="VHR-tT-hZi"/>
+                <constraint firstItem="nHg-OP-SuN" firstAttribute="top" secondItem="fnl-2z-Ty3" secondAttribute="top" id="lD9-O5-p0c"/>
+                <constraint firstItem="8Go-0J-2ym" firstAttribute="top" secondItem="nHg-OP-SuN" secondAttribute="bottom" constant="20" id="sE8-p8-1Cf"/>
+            </constraints>
+            <point key="canvasLocation" x="136.80000000000001" y="113.79310344827587"/>
+        </view>
+    </objects>
+    <designables>
+        <designable name="CFg-6f-xz2">
+            <size key="intrinsicContentSize" width="69" height="34"/>
+        </designable>
+        <designable name="tZp-1W-tsM">
+            <size key="intrinsicContentSize" width="56" height="34"/>
+        </designable>
+    </designables>
+    <resources>
+        <namedColor name="cream">
+            <color red="0.97254901960784312" green="0.97254901960784312" blue="0.97254901960784312" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </namedColor>
+    </resources>
+</document>

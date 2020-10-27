@@ -1,0 +1,30 @@
+PODS:
+  - DropDown (2.3.13)
+  - FlagPhoneNumber (0.8.0):
+    - FlagPhoneNumber/libPhoneNumberiOS (= 0.8.0)
+  - FlagPhoneNumber/libPhoneNumberiOS (0.8.0)
+  - SideMenu (6.4.9)
+  - ZKCarousel (1.1.0)
+
+DEPENDENCIES:
+  - DropDown
+  - FlagPhoneNumber
+  - SideMenu
+  - ZKCarousel
+
+SPEC REPOS:
+  trunk:
+    - DropDown
+    - FlagPhoneNumber
+    - SideMenu
+    - ZKCarousel
+
+SPEC CHECKSUMS:
+  DropDown: 8a2116376c1981888557f72ec2ffc9a5e0e456ec
+  FlagPhoneNumber: 3712455b95f66cb0f2016fef7d9e34cddf8c7f9a
+  SideMenu: 8ef57a3cfc024a2d3fc1c036c7fe98537baec9e0
+  ZKCarousel: 935e0aa9beed83824588d9a82d8bafa5b6fc19db
+
+PODFILE CHECKSUM: cd7b81dfcd0b46d2038650344575524966c95296
+
+COCOAPODS: 1.9.1

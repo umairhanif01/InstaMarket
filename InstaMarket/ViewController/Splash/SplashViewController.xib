@@ -1,0 +1,118 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="17156" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="17125"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="System colors in document resources" minToolsVersion="11.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="SplashViewController" customModule="InstaMarket" customModuleProvider="target">
+            <connections>
+                <outlet property="view" destination="i5M-Pr-FkT" id="sfx-zR-JGt"/>
+            </connections>
+        </placeholder>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view clearsContextBeforeDrawing="NO" contentMode="scaleToFill" id="i5M-Pr-FkT">
+            <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="SplashBG" translatesAutoresizingMaskIntoConstraints="NO" id="aAV-4b-xau">
+                    <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                </imageView>
+                <view alpha="0.59999999999999998" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="zWX-4p-teS">
+                    <rect key="frame" x="76.5" y="413" width="337.5" height="70"/>
+                    <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="70" id="J11-vt-q8j"/>
+                    </constraints>
+                </view>
+                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="WpX-sx-Fdb">
+                    <rect key="frame" x="76" y="413" width="338" height="70"/>
+                    <subviews>
+                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Instamarket" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" minimumScaleFactor="0.5" translatesAutoresizingMaskIntoConstraints="NO" id="2hS-uh-gzy">
+                            <rect key="frame" x="50.5" y="4" width="287.5" height="62.5"/>
+                            <fontDescription key="fontDescription" type="boldSystem" pointSize="52"/>
+                            <color key="textColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                            <nil key="highlightedColor"/>
+                        </label>
+                    </subviews>
+                    <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                    <constraints>
+                        <constraint firstAttribute="trailing" secondItem="2hS-uh-gzy" secondAttribute="trailing" id="1FB-L5-HxM"/>
+                        <constraint firstAttribute="height" constant="70" id="3Td-ZA-Sl3"/>
+                        <constraint firstItem="2hS-uh-gzy" firstAttribute="centerY" secondItem="WpX-sx-Fdb" secondAttribute="centerY" id="iop-mI-NmN"/>
+                    </constraints>
+                </view>
+            </subviews>
+            <viewLayoutGuide key="safeArea" id="fnl-2z-Ty3"/>
+            <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+            <constraints>
+                <constraint firstItem="WpX-sx-Fdb" firstAttribute="centerY" secondItem="i5M-Pr-FkT" secondAttribute="centerY" id="0gc-fd-a1p"/>
+                <constraint firstItem="fnl-2z-Ty3" firstAttribute="trailing" secondItem="zWX-4p-teS" secondAttribute="trailing" id="7xw-MV-iff"/>
+                <constraint firstItem="aAV-4b-xau" firstAttribute="trailing" secondItem="fnl-2z-Ty3" secondAttribute="trailing" id="882-f7-3UD"/>
+                <constraint firstItem="aAV-4b-xau" firstAttribute="top" secondItem="i5M-Pr-FkT" secondAttribute="top" id="Djm-So-cbV"/>
+                <constraint firstItem="zWX-4p-teS" firstAttribute="centerY" secondItem="i5M-Pr-FkT" secondAttribute="centerY" id="L4J-iK-ZgJ"/>
+                <constraint firstAttribute="bottom" secondItem="aAV-4b-xau" secondAttribute="bottom" id="M8H-LG-Oy0"/>
+                <constraint firstItem="zWX-4p-teS" firstAttribute="width" secondItem="aAV-4b-xau" secondAttribute="width" multiplier="0.815217" id="jBB-JY-bfB"/>
+                <constraint firstItem="fnl-2z-Ty3" firstAttribute="trailing" secondItem="WpX-sx-Fdb" secondAttribute="trailing" id="lLz-Zx-suW"/>
+                <constraint firstItem="aAV-4b-xau" firstAttribute="leading" secondItem="fnl-2z-Ty3" secondAttribute="leading" id="pwT-RF-tCC"/>
+                <constraint firstItem="WpX-sx-Fdb" firstAttribute="width" secondItem="aAV-4b-xau" secondAttribute="width" multiplier="0.816425" id="qMw-W2-Icx"/>
+            </constraints>
+            <point key="canvasLocation" x="137.68115942028987" y="143.97321428571428"/>
+        </view>
+        <view contentMode="scaleToFill" id="gpN-t4-1OD">
+            <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+            <subviews>
+                <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Splash2BG" translatesAutoresizingMaskIntoConstraints="NO" id="G2a-hG-dQ0">
+                    <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                </imageView>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Instamarket" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" minimumScaleFactor="0.5" translatesAutoresizingMaskIntoConstraints="NO" id="mXS-px-bb9">
+                    <rect key="frame" x="126.5" y="337" width="287.5" height="62.5"/>
+                    <fontDescription key="fontDescription" type="boldSystem" pointSize="52"/>
+                    <color key="textColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                    <nil key="highlightedColor"/>
+                </label>
+            </subviews>
+            <viewLayoutGuide key="safeArea" id="DIQ-gZ-0Pv"/>
+            <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+            <constraints>
+                <constraint firstItem="mXS-px-bb9" firstAttribute="centerY" secondItem="gpN-t4-1OD" secondAttribute="centerY" constant="-80" id="1fN-lb-fuf"/>
+                <constraint firstItem="G2a-hG-dQ0" firstAttribute="leading" secondItem="DIQ-gZ-0Pv" secondAttribute="leading" id="KK1-PL-8vB"/>
+                <constraint firstAttribute="bottom" secondItem="G2a-hG-dQ0" secondAttribute="bottom" id="aJk-o9-TmC"/>
+                <constraint firstItem="G2a-hG-dQ0" firstAttribute="top" secondItem="gpN-t4-1OD" secondAttribute="top" id="cVQ-mF-gne"/>
+                <constraint firstItem="DIQ-gZ-0Pv" firstAttribute="trailing" secondItem="mXS-px-bb9" secondAttribute="trailing" id="d6H-dk-Pwp"/>
+                <constraint firstItem="G2a-hG-dQ0" firstAttribute="trailing" secondItem="DIQ-gZ-0Pv" secondAttribute="trailing" id="uI6-Ss-AXg"/>
+            </constraints>
+            <point key="canvasLocation" x="1006" y="144"/>
+        </view>
+        <view contentMode="scaleToFill" id="3hh-tA-dOi">
+            <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+            <subviews>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Instamarket" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" minimumScaleFactor="0.5" translatesAutoresizingMaskIntoConstraints="NO" id="4MO-XU-HW1">
+                    <rect key="frame" x="126.5" y="417" width="287.5" height="62.5"/>
+                    <fontDescription key="fontDescription" type="boldSystem" pointSize="52"/>
+                    <color key="textColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                    <nil key="highlightedColor"/>
+                </label>
+            </subviews>
+            <viewLayoutGuide key="safeArea" id="Dfz-gd-hfc"/>
+            <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+            <constraints>
+                <constraint firstItem="4MO-XU-HW1" firstAttribute="centerY" secondItem="3hh-tA-dOi" secondAttribute="centerY" id="VWU-T0-fQP"/>
+                <constraint firstItem="Dfz-gd-hfc" firstAttribute="trailing" secondItem="4MO-XU-HW1" secondAttribute="trailing" id="WPp-FT-92H"/>
+            </constraints>
+            <point key="canvasLocation" x="1920" y="144"/>
+        </view>
+    </objects>
+    <resources>
+        <image name="Splash2BG" width="414" height="736"/>
+        <image name="SplashBG" width="414" height="736"/>
+        <systemColor name="systemBackgroundColor">
+            <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+        </systemColor>
+    </resources>
+</document>
